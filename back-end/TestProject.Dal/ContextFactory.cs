@@ -7,7 +7,7 @@ namespace TestProject.Dal
     public class ContextFactory : IDesignTimeDbContextFactory<CompanyDbContext>
     {
         public CompanyDbContext CreateDbContext(string[] args)
-        {
+        {//just empty comment
             return CompanyDbContext.Create();
         }
     }
